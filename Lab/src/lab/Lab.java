@@ -25,7 +25,7 @@ public class Lab {
             count++;
         }
         String matchedRegexesStr = "(" + String.join(",", matchedRegexes) + ")";
-        System.out.println("Output: " + count +"("+matchedRegexesStr+")");  
+        System.out.println("Output: " + count +matchedRegexesStr);  
     };
     
     //
